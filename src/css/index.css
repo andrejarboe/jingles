@@ -16,6 +16,29 @@
     justify-content: center;
 }
 
+/* Hero */
+.hero-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: inherit;
+}
+
+/* As heard in */
+.examples{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+    "example-one example-two example-three";
+}
+
+.example{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+/* BENEFITS */
 .content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -26,7 +49,7 @@
 
 .benefit{
     display: grid;
-    /* justify-content: center; */
+    justify-content: center;
     text-align: center;
 }
 
@@ -47,6 +70,13 @@
         "benefit-one"
         "benefit-two" 
         "benefit-three";
+    }
+    .examples {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        "example-one"
+        "example-two" 
+        "example-three";
     }
 
 }

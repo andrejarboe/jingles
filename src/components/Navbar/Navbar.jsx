@@ -18,7 +18,7 @@ export default class Navbar extends Component {
           <Container>
         <nav>
             <Link className={styles.logo}>
-              <div className="logo">Logo</div>
+              <div className="logo">JINGLES</div>
             </Link>
             <div className={styles.nav}>
             
