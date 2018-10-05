@@ -1,0 +1,23 @@
+nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "logo nav";
+    padding: 20px 0;
+    background: ;
+}
+
+.logo{
+    grid-area: logo;
+
+}
+
+.nav{
+    grid-area: nav;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.listlink{
+
+}
