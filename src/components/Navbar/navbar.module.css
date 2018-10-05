@@ -9,7 +9,7 @@ nav{
 
 .logo{
     grid-area: logo;
-
+    max-width: 100%;
 }
 
 .nav{
