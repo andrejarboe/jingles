@@ -9,13 +9,15 @@ export default class Navbar extends Component {
       <nav>
         <div className="navbar wrapper">
           <div className="logo">
-            <h1>Jingles</h1>
+            <Link to="/">
+              <h1>Jingles</h1>
+            </Link>
           </div>
           <div className="links">
-            <Link to="/products">Products</Link>
-            <Link to="/products">About</Link>
-            <Link to="/products">FAQ</Link>
-            <Link to="/products">Request a quote</Link>
+            <Link to="/">Products</Link>
+            <Link to="/">About</Link>
+            <Link to="/">FAQ</Link>
+            <Link to="/">Request a quote</Link>
           </div>
         </div>
       </nav>
