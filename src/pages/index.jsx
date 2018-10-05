@@ -56,11 +56,11 @@ export default () => (
           </div>
           <div className="content">
             <div className="benefit benefit-one">
-              <h3>80 Million</h3>
+              <h3>80 Million listens</h3>
               <p>We have over over 80 Million plays a year.</p>
             </div>
             <div className="benefit benefit-two">
-              <h3>Benefit 2</h3>
+              <h3>Big Name artist</h3>
               <p>
                 Benefit reason 2. Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. Omnis, recusandae.
