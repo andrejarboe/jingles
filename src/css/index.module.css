@@ -1,6 +1,12 @@
 :root{
-    --hero-height: 30vw;
+    --hero-height: 500px;
 }
+.grid{
+    display: grid;
+    justify-content: center;
+  }
+
+
 .Hero{
     /* background-color: red; */
     /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
@@ -27,6 +33,49 @@
     height: var(--hero-height);
 }
 
-.listlink{
+/* benefits */
+
+.benefitsContent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "one two three";
+    grid-area: benefits;
 
 }
+section{
+    /* padding: 0 auto; */
+    padding: 20px 0;
+}
+
+.title{
+    /* padding: 0 auto; */
+    grid-area: title;
+
+}
+.benefitOne{
+    grid-area: one;
+}
+.benefitTwo{
+    grid-area: two;
+}
+.benefitThree{
+    grid-area: three;
+}
+
+.benefitOne,
+.benefitTwo,
+.benefitThree{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "title",
+    "benefits";
+}
+
