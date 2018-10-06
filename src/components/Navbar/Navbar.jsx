@@ -17,7 +17,7 @@ export default class Navbar extends Component {
             <Link to="/">Products</Link>
             <Link to="/">About</Link>
             <Link to="/">FAQ</Link>
-            <Link to="/">Request a quote</Link>
+            <Link className="nav-btn" to="/">Request a quote</Link>
           </div>
         </div>
       </nav>

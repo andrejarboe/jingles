@@ -28,15 +28,18 @@
     padding: 20px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: inherit;
+    grid-template-areas: 
+    "info image";
     margin: 0 10px;
 }
 
 .info{
     margin: auto 0;
+    grid-area: info;
 }
 
 .main-btn{
+    grid-area: btn;
     border-radius: 50px;
     font-size: 14px;
     font-weight: 600;
@@ -52,6 +55,15 @@
     background-color: #fff;
     color: #000428;
 }
+.image{
+    margin: 0 auto;
+    grid-area: image
+}
+
+#hero img{
+    max-width: 300px;
+}
+
 
 /* As heard in */
 .examples{
@@ -109,4 +121,10 @@
         "example-three";
     }
 
+}
+
+@media only screen and (max-width: 470px) {
+    .main-btn{
+        padding: 5px 10px;
+    }
 }

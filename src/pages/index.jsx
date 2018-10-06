@@ -12,16 +12,21 @@ export default () => (
           <div className="info">
             <h2>The BEST Jingles in your city!!!</h2>
             <p>Your slogan here</p>
-            <a href="" className="main-btn">Request A Quote</a>
+            <a href="" className="main-btn">
+              Request A Quote
+            </a>
           </div>
           <div className="image">
-            {/* <img className="" src="https://images.pexels.com/photos/167092/pexels-photo-167092.jpeg?auto=compress&cs=tinysrgb&h=350" alt=""/> */}
-          <img className="circle" src="./assets/jingleListerner.png" alt="Photo by rawpixel.com from Pexels"/>
+            <img
+              className="circle"
+              src="./assets/jingleListerner.png"
+              alt="Photo by rawpixel.com from Pexels"
+            />
           </div>
         </div>
       </div>
     </section>
- 
+
     {/* As heard in */}
     <section id="Heard-in">
       <div className="heard wrapper">
@@ -31,15 +36,30 @@ export default () => (
         <div className="examples">
           <div className="example example-one">
             <h3>Example one</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatem cumque cum saepe exercitationem ab perspiciatis obcaecati maiores. Ducimus, laboriosam? Similique aliquid perferendis veniam sit!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              voluptatem cumque cum saepe exercitationem ab perspiciatis
+              obcaecati maiores. Ducimus, laboriosam? Similique aliquid
+              perferendis veniam sit!
+            </p>
           </div>
           <div className="example example-one">
             <h3>Example two</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatem cumque cum saepe exercitationem ab perspiciatis obcaecati maiores. Ducimus, laboriosam? Similique aliquid perferendis veniam sit!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              voluptatem cumque cum saepe exercitationem ab perspiciatis
+              obcaecati maiores. Ducimus, laboriosam? Similique aliquid
+              perferendis veniam sit!
+            </p>
           </div>
           <div className="example example-one">
             <h3>Example three</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatem cumque cum saepe exercitationem ab perspiciatis obcaecati maiores. Ducimus, laboriosam? Similique aliquid perferendis veniam sit!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              voluptatem cumque cum saepe exercitationem ab perspiciatis
+              obcaecati maiores. Ducimus, laboriosam? Similique aliquid
+              perferendis veniam sit!
+            </p>
           </div>
         </div>
       </div>
