@@ -1,9 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import Benefits from "../components/Benefits";
 
-import Container from "../components/container";
-import styles from "../css/index.module.css";
 import "../css/index.css";
 
 export default () => (
@@ -15,10 +12,11 @@ export default () => (
           <div className="info">
             <h2>The BEST Jingles in your city!!!</h2>
             <p>Your slogan here</p>
-            <button className="call">Request a quote</button>
+            <a href="" className="main-btn">Request A Quote</a>
           </div>
           <div className="image">
-            <img className="" src="https://images.pexels.com/photos/167092/pexels-photo-167092.jpeg?auto=compress&cs=tinysrgb&h=350" alt=""/>
+            {/* <img className="" src="https://images.pexels.com/photos/167092/pexels-photo-167092.jpeg?auto=compress&cs=tinysrgb&h=350" alt=""/> */}
+          <img className="circle" src="./assets/jingleListerner.png" alt="Photo by rawpixel.com from Pexels"/>
           </div>
         </div>
       </div>
@@ -60,7 +58,7 @@ export default () => (
               <p>We have over over 80 Million plays a year.</p>
             </div>
             <div className="benefit benefit-two">
-              <h3>Big Name artist</h3>
+              <h3>Big Name Artist</h3>
               <p>
                 Benefit reason 2. Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. Omnis, recusandae.

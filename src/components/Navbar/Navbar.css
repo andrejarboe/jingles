@@ -1,11 +1,22 @@
-.navbar{
+nav{
+    background:  #004e92;
+    padding-top: 20px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav .navbar{
+    margin: 0 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
     "logo links";
 }
 
-.navbar h1{
+h1{
     margin: 0;
 }
 
@@ -27,17 +38,18 @@
 }
 
 @media only screen and (max-width: 700px) {
-    .navbar {
+    nav .navbar {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: 1fr;
         grid-template-areas:
         "logo"
         "links";
+
     }
 
     .logo{
-    margin: 0 auto;
+        margin: 0 auto;
         
     }
 }

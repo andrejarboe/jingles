@@ -17,10 +17,40 @@
 }
 
 /* Hero */
+#hero{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
 .hero-content{
+    padding: 20px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: inherit;
+    margin: 0 10px;
+}
+
+.info{
+    margin: auto 0;
+}
+
+.main-btn{
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000428;
+    letter-spacing: 1.3px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    background: #fff;
+}
+
+.call{
+    background-color: #fff;
+    color: #000428;
 }
 
 /* As heard in */
