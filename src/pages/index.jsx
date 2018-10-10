@@ -27,6 +27,27 @@ export default () => (
       </div>
     </section>
 
+    {/* What we do */}
+    <section id="what-we-do">
+      <div className="wrapper">
+        <div className="title">
+          <h3>What we do</h3>
+        </div>
+        
+        <div className="works">
+          <div className="work">
+            <h3>Jingles</h3>
+          </div>
+          <div className="work">
+            <h3>instrumentals</h3>
+          </div>
+          <div className="work">
+            <h3>Voice Overs</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
     {/* As heard in */}
     <section id="Heard-in">
       <div className="heard wrapper">
