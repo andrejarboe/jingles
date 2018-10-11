@@ -1,6 +1,9 @@
 nav{
     background:  #004e92;
     padding: 20px 0;
+    z-index: 2;
+  position: relative;
+
 }
 
 nav a{
