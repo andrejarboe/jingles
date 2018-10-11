@@ -6,7 +6,7 @@ import "../css/index.css";
 export default () => (
   <Layout>
     {/* hero */}
-    <section id="hero">
+    <div id="hero">
       <div className="wrapper">
         <div className="hero-content">
           <div className="info">
@@ -25,24 +25,29 @@ export default () => (
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     {/* What we do */}
     <section id="what-we-do">
       <div className="wrapper">
         <div className="title">
-          <h3>What we do</h3>
+          <h3>What We Do</h3>
         </div>
-        
         <div className="works">
           <div className="work">
+            <i className="fas fa-music" />
             <h3>Jingles</h3>
+            <p>We make professional jingles for companies and individuals.</p>
           </div>
           <div className="work">
-            <h3>instrumentals</h3>
+            <i className="fas fa-headphones-alt" />
+            <h3>Instrumentals</h3>
+            <p>High-quality instrumentals for use in film and commercials.</p>
           </div>
           <div className="work">
+            <i className="fas fa-microphone-alt" />
             <h3>Voice Overs</h3>
+            <p>Professional voiceovers for commercials, radio, and film.</p>
           </div>
         </div>
       </div>
@@ -100,18 +105,11 @@ export default () => (
             </div>
             <div className="benefit benefit-two">
               <h3>Big Name Artist</h3>
-              <p>
-                Benefit reason 2. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Omnis, recusandae.
-              </p>
+              <p>Benefit reason 2, lorem ipsum dolor sit.</p>
             </div>
             <div className="benefit benefit-three">
               <h3>Benefit 3</h3>
-              <p>
-                Benefit 3. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Neque nobis repudiandae atque asperiores voluptatibus
-                vitae.
-              </p>
+              <p>Benefit 3, Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
         </div>
