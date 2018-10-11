@@ -24,14 +24,24 @@ export default function ContactPage({ data }) {
       </section>
 
       <section>
-          <div className="contact">
-            <div className="info">
-                <h3>Info</h3>
-            </div>
-            <div className="form">
-                <h3>Form</h3>
-            </div>
+        <div className="contact-page">
+          <div className="contact-info">
+            <h3>Info</h3>
+            <p>phone number</p>
+            <p>email</p>
+            <p>hours</p>
           </div>
+          <div className="contact-form">
+            <h3>Request a quote</h3>
+            <form action="https://formspree.io/andrejarboe@gmail.com" method="POST">
+              <input type="text" name="name" placeholder="Name"/>
+              <input type="email" name="email" placeholder="Email"/>
+              <input type="tell" name="phone" placeholder="Phone"/>
+              <input type="text" name="message" placeholder="Message"/>
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+        </div>
       </section>
     </Layout>
   );
@@ -39,9 +49,9 @@ export default function ContactPage({ data }) {
 
 export const contactQuery = graphql`
   query {
-    background: file(relativePath: { eq: "contactBg.jpg" }) {
+    background: file(relativePath: { eq: "contactBg3.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 2848) {
+        fluid(maxWidth: 3000) {
           ...GatsbyImageSharpFluid
         }
       }
