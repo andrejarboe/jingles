@@ -13,9 +13,19 @@ const Layout = ({ children }) => (
 
 
         </Helmet>
+        <div className="App Site">
+                <div className="Site-content">
+                    <div className="App-header">
+                        
         <Navbar/>
+                    </div>
+                    <div className="main">
+
         {children}
-        <Footer/>
+                    </div>
+                </div>
+                <Footer />
+            </div>
     </div>
 );
 

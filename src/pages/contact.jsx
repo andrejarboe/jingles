@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../components/layout";
 import Img from "gatsby-image";
-import styled from "styled-components";
 
 import "../css/contact.css";
 
@@ -23,6 +22,17 @@ export default function ContactPage({ data }) {
           fluid={data.background.childImageSharp.fluid}
         />
       </section>
+
+      <section>
+          <div className="contact">
+            <div className="info">
+                <h3>Info</h3>
+            </div>
+            <div className="form">
+                <h3>Form</h3>
+            </div>
+          </div>
+      </section>
     </Layout>
   );
 }
@@ -31,7 +41,7 @@ export const contactQuery = graphql`
   query {
     background: file(relativePath: { eq: "contactBg.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 2000) {
+        fluid(maxWidth: 2848) {
           ...GatsbyImageSharpFluid
         }
       }
