@@ -34,17 +34,17 @@ export default () => (
           <h3>What We Do</h3>
         </div>
         <div className="works">
-          <div className="work">
+          <div className="work jingles">
             <i className="fas fa-music" />
             <h3>Jingles</h3>
             <p>We make professional jingles for companies and individuals.</p>
           </div>
-          <div className="work">
+          <div className="work instrumentals">
             <i className="fas fa-headphones-alt" />
             <h3>Instrumentals</h3>
             <p>High-quality instrumentals for use in film and commercials.</p>
           </div>
-          <div className="work">
+          <div className="work voice">
             <i className="fas fa-microphone-alt" />
             <h3>Voice Overs</h3>
             <p>Professional voiceovers for commercials, radio, and film.</p>

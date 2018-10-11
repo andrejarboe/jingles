@@ -24,20 +24,20 @@ export default function ContactPage({ data }) {
       </section>
 
       <section>
-        <div className="contact-page">
+        <div className="contact contact-page">
           <div className="contact-info">
             <h3>Info</h3>
             <p>phone number</p>
             <p>email</p>
             <p>hours</p>
           </div>
-          <div className="contact-form">
+          <div className="contact contact-form">
             <h3>Request a quote</h3>
             <form action="https://formspree.io/andrejarboe@gmail.com" method="POST">
               <input type="text" name="name" placeholder="Name"/>
               <input type="email" name="email" placeholder="Email"/>
               <input type="tell" name="phone" placeholder="Phone"/>
-              <input type="text" name="message" placeholder="Message"/>
+              <textarea name="message" placeholder="Message" id=""></textarea>
               <input type="submit" value="Send" />
             </form>
           </div>

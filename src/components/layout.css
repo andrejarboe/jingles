@@ -22,6 +22,11 @@
     height: 0;
     visibility: hidden;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 ul{
     list-style-type: none;
     margin: 0;

@@ -11,13 +11,12 @@
 #contact-hero{
     overflow: hidden;
     position: relative;
-    
 }
 
 #contact-hero h1{
     color: #fff;
-    -webkit-text-stroke-color: 7px #000428;  /* fallback for old browsers */
-
+    font-size: 6rem;
+    -webkit-text-stroke-color: #000428 1px solid;
 }
 
 .contact-page{
@@ -28,10 +27,21 @@
     "contact-info contact-form";
     margin: 0 10px;
 }
+.contact{
+    padding: 25px;
+}
 
 .contact-info{
     grid-area: contact-info;
 }
 .contact-form{
     grid-area: contact-form;
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000428;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
