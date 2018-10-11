@@ -1,0 +1,21 @@
+.contact-container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  position: relative;
+  z-index: 2;
+}
+
+#contact-hero{
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+    "info form";
+}
